@@ -1,0 +1,24 @@
+  <!-- Buttons -->
+
+<div class="container">
+<div>
+  <button class="btn-print" style="padding: 10px;"
+
+(click)="createpdf()"
+> Lieferschein erstellen</button>
+
+  
+</div>
+<div>
+<button class="btn-print" (click)="exportAsPDF()">
+      Lieferschein drucken
+    </button>
+  
+</div>
+ 
+
+  
+<div [hidden]= "!isVisible">
+  Dieser Inhalt ist sichtbar.
+  <app-report ></app-report>
+</div>

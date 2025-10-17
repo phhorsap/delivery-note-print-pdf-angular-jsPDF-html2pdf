@@ -1,0 +1,11 @@
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Zwei gleich breite Spalten */
+  grid-template-rows: 1fr;        /* Eine Zeile */
+  gap: 2px;                      /* Optionaler Abstand zwischen den Spalten */
+}
+.btn-print{
+    padding: 10px;
+    background-color: rgb(205, 224, 205);
+}
